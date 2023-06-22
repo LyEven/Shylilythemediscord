@@ -1,0 +1,146 @@
+/**
+* @name HinataHyugaTheme
+* @author Hina#0001 (based off nyri4's)
+* @description A theme based on @Melonturtle_ stream design
+* @invite rtBQX5D3bD
+* @version 1.0
+*/
+@import url("https://nyri4.github.io/LilyPichu/main.css");
+
+:root {
+
+/* --- User variables --- */
+
+/* Jumping GIF */
+--jumping-gif: url('https://i.redd.it/yhnuy6roajt91.gif');
+
+/* Background (if you want an image replace it by : 
+--background-tertiary-alt: url("image-link"); without that => */
+--background-tertiary-alt: url("https://media.tenor.com/zJOAm9_J-gAAAAAd/shylily-personal-background.gif");
+
+/* Border-radius for the whole theme */
+--border-radius: 20px;
+
+}
+
+.theme-dark {
+
+    /* Text */
+    --text-normal: #000000;
+    --header-primary: #000000;
+    --interactive-normal: #000000;
+    --channels-default: #000000;
+
+    --text-muted: #000000;
+    --interactive-muted: #0000006b;
+
+    --header-secondary: #a25eb3;
+    --interactive-hover: #e6dee6;
+    --interactive-active: #fffffffa;
+
+    /* Background color */
+    --background-primary: rgba(0, 0, 0, 0.13) !important;
+    --background-secondary: rgba(107, 106, 106, 0.315);
+    --background-secondary-alt: rgba(108, 40, 161, 0.281);
+    --background-tertiary: #77767691;
+    --background-floating: #75737327;
+    --background-accent: #681a77;
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(85, 38, 124, 0.377);
+    --background-modifier-active: rgb(165, 8, 238);
+    --background-modifier-selected: rgba(103, 40, 119, 0.897);
+    --toast-background: #763d9c !important;
+    --toast-header: #8b32ad !important;
+    --toast-contents: #7f419c !important;
+    --toast-border: #653d92 !important;
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+
+    /* Other */
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+    .colorBrand-ROmMP1 { color: #9d4bbd;}
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { background-color: var(--background-modifier-hover) !important;}
+
+    /* Buttons */
+    .lookFilled-1Gx00P { background-color: #8606ee !important;}
+    .lookFilled-1Gx00P:active, .lookFilled-1Gx00P:hover { background-color: #55146e !important;}
+    .lookOutlined-3sRXeN:not(.colorWhite-rEQuAQ) { color: #a21dfa; border-color: #c5536c;}
+
+    /* Hover background */
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { color: var(--interactive-normal);}
+
+
+    .colorBrand-ROmMP1 { color: #7717d1;}
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { background-color: var(--background-modifier-hover) !important;}
+
+    /* Buttons */
+    .lookFilled-1Gx00P { background-color: #7d25c5 !important;}
+    .lookFilled-1Gx00P:active, .lookFilled-1Gx00P:hover { background-color: #ad4ab6 !important;}
+    .lookOutlined-3sRXeN:not(.colorWhite-rEQuAQ) { color: #a152b1; border-color: #c5536c;}
+
+    /* Hover background */
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { color: var(--interactive-normal);}
+
+.theme-light {
+
+    /* Text */
+    --text-normal: #e7dede;
+    --header-primary: #d6d4da;
+    --interactive-normal: #bdb8b8;
+    --channels-default: #ffffff;
+
+    --text-muted: #dfdae0;
+    --interactive-muted: #fcfcfc;
+
+    --header-secondary: #a25eb3;
+    --interactive-hover: #e6dee6;
+    --interactive-active: #ffffff79;
+
+    /* Background color */
+    --background-primary: rgba(0, 0, 0, 0.219) !important;
+    --background-secondary: rgba(0, 0, 0, 0.247);
+    --background-secondary-alt: rgba(109, 40, 161, 0.432);
+    --background-tertiary: #00000052;
+    --background-floating: #00000062;
+    --background-accent: #681a77;
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(86, 38, 124, 0.32);
+    --background-modifier-active: rgb(165, 8, 238);
+    --background-modifier-selected: rgba(103, 40, 119, 0.411);
+    --toast-background: #763d9c !important;
+    --toast-header: #8b32ad !important;
+    --toast-contents: #7f419c !important;
+    --toast-border: #653d92 !important;
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+
+    /* Other */
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+    :root .app-2CXKsg::before,
+    :root .app-3xd6d0::before,
+    :root .app-3xd6d0::after, 
+    :root .app-2CXKsg::after,
+    :root .layers-OrUESM::before,
+    :root .layers-OrUESM::after,
+    :root .app-3xd6d0::before, 
+    :root .bg-1QIAus::after,
+    :root .bg-1QIAus::before {
+  content: none !important;
+    }
+  .container-1eFtFS::after{content:"Gotta work hard!";}
+  .homeIcon-r0w4ny path {fill: transparent}
+.homeIcon-r0w4ny {
+    background: url('https://media.tenor.com/zJOAm9_J-gAAAAAd/shylily-personal-background.gif') center/cover no-repeat;
+    min-width: 60px;
+    min-height: 60px;
+}
